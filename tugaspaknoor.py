@@ -1,5 +1,7 @@
 character = input("masukan karakter: ")
+input_jumlah = int(input("masukan jumlah;"))
 cetak = " " + character + " "
 
-for i in range (1,20):
-    print((cetak * i).center(100))
+for i in range (1, input_jumlah + 1):
+    print((cetak * i).center(input_jumlah * 2))
+   
